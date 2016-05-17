@@ -17,7 +17,7 @@ module Angie
   private
 
     def directive_name
-      file_name.classify
+      file_name.camelize(:lower)
     end
 
     def template_path
