@@ -1,0 +1,6 @@
+angular.module('blueprint').directive <%= "'#{directive_name}'" %>, () ->
+  directive =
+    replace: true
+    restrict: 'E'
+    scope: {}
+    templateUrl: <%= "'#{template_path}'" %>
