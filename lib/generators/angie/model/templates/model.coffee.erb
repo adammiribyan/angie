@@ -1,0 +1,7 @@
+angular.module('blueprint').service <%= "'#{model_name}'" %>, (ModelBase) ->
+  class <%= model_name %> extends ModelBase
+    constructor: (attrs = {}) ->
+      super attrs
+
+    deletionMessage: ->
+      "<strong>#{ _.escape(@name) }</strong> will be deleted."

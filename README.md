@@ -5,6 +5,7 @@ So you wanna add a new directive, controller, service, template, whatever into t
 ## Available Generators
 
 1. `angie:directive directive_name`
+2. `angie:model model_name`
 
 
 ## Contributing
